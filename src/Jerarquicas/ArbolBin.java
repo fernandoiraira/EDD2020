@@ -10,32 +10,23 @@ package Jerarquicas;
  * @author Sammy Guergachi <sguergachi at gmail.com>
  */
 public class ArbolBin {
-    
+
     NodoArbol raiz;
-    
+
     public ArbolBin() {
         this.raiz = null;
     }
-    
+
     public boolean insertar(Object elemNuevo, Object elemPadre, char lugar) {
         boolean exito = true;
-        
+
         if (this.raiz != null) {
             this.raiz = new NodoArbol(elemNuevo, null, null);
         } else {
-            
+
         }
-        
+
         return exito;
     }
-    
-    private NodoArbol obtenerNodo(NodoArbol n, Object buscado) {
-        NodoArbol resultado = null;
-        
-        if (n != null) {
-            
-        }
-        
-    }
-    
+
 }
